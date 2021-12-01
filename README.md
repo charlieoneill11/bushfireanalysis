@@ -5,7 +5,7 @@ The given dataset consists of monthly rainfall in millimetres in the Sydney catc
 
 ## Repository structure
 The repository follows a standard structure:
-* [input](https://github.com/charlieoneill11/diabeticretinopathy/tree/main/input) contains both the patient data as well as the notebooks used to clean and feature engineer. The main datasets for prediction are `df_one_year.csv`, which has the accompanying kfold cross-validation grouped dataset `df_one_year_fold.csv`. Train and test splits, of the same name, have also been provided.
+* [input](https://github.com/charlieoneill11/bushfireanalysis/tree/main/input) contains both the patient data as well as the notebooks used to clean and feature engineer. The main dataset for prediction is `df_one_year.csv`. Train and test splits, of the same name, have also been provided.
 * [notebooks](https://github.com/charlieoneill11/diabeticretinopathy/tree/main/notebooks) contains notebooks used for experimenting and producing results. The notebooks are in order of the above three tasks.
 * [src](https://github.com/charlieoneill11/diabeticretinopathy/tree/main/src) contains the Python scripts allowing the user to train and evaluate different models on the required dataset from the command line. The main script is [train.py](https://github.com/charlieoneill11/diabeticretinopathy/blob/main/src/train.py), which relies on the other scripts for configuration, dataset retrieval and argument parsing.
 
