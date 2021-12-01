@@ -1,4 +1,4 @@
-# bushfireanalysis
+# Regression of annual bushfire severity on aggregated rainfall measures
 Complete quantitative, forecast-driven analysis of Australian bushfire data.
 
 The given dataset consists of monthly rainfall in millimetres in the Sydney catchment area from 1960 to 2020, as well as the total hectares burnt in bushfires in the same period. Whilst we initially (naïvely) treat rainfall in the relevant year as the predictor variable and the hectares burnt as as the variable to be forecast, we will proceed to more complicated time-series methods. In particular, we will utilise models that rely on data not just from the current period, but previous time-steps, and place appropriate weightings on the remoteness of such time-steps. The final model structure will involve feeding in several time-steps, each with monthly rainfall in a twelve-dimensional vector, and previous year bushfire data as a scalar in each step. Whilst the cessation of aggregation reduces the explainability of the model, doing so gives the recurrent neural network as much flexibility as possible to find the most complex relationships between monthly rainfall and bushfire severity.
