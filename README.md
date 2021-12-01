@@ -10,4 +10,4 @@ The repository follows a standard structure:
 * [src](https://github.com/charlieoneill11/diabeticretinopathy/tree/main/src) contains the Python scripts allowing the user to train and evaluate different models on the required dataset from the command line. The main script is [train.py](https://github.com/charlieoneill11/diabeticretinopathy/blob/main/src/train.py), which relies on the other scripts for configuration, dataset retrieval and argument parsing.
 
 ## Results
-The results of the analysis is compiled in [Report.pdf](https://github.com/charlieoneill11/bushfireanalysis/blob/main/Bushfire_Report_Final.pdf).
+The results of the analysis is compiled in [Report.pdf](https://github.com/charlieoneill11/bushfireanalysis/blob/main/Report.pdf).
